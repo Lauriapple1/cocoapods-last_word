@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = CocoapodsLast_word::VERSION
   spec.authors       = ['Dmitry Bespalov']
   spec.email         = ['dmitry.bespalov@zalando.de']
-  spec.description   = %q{A short description of cocoapods-last_word.}
-  spec.summary       = %q{A longer description of cocoapods-last_word.}
-  spec.homepage      = 'https://github.com/EXAMPLE/cocoapods-last_word'
+  spec.description   = %q{Add a real post-install hook.}
+  spec.summary       = %q{Add real post-install hooks that execute after all cocoapods actions finish.}
+  spec.homepage      = 'https://github.com/zalando/cocoapods-last_word'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)

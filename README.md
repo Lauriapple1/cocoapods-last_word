@@ -1,6 +1,6 @@
 # cocoapods-last_word
 
-A description of cocoapods-last_word.
+Adds post install hook executing when all cocoapods actions are finished
 
 ## Installation
 
@@ -8,4 +8,10 @@ A description of cocoapods-last_word.
 
 ## Usage
 
-    $ pod spec last_word POD_NAME
+Add your hook in a Podfile:
+
+    plugin 'cocoapods-last_word', {
+        hook: Proc.new {
+            # do your stuff
+        }
+    }
